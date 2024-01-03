@@ -11,10 +11,14 @@
   <div class="container">
     <h1>데이터 크롤링</h1>
 
-    <label for="keyword">검색어:</label>
+    <!-- 사용자가 검색 키워드를 입력할 수 있는 입력란 -->
+    <label for="keyword">검색어: </label>
     <input type="text" id="keyword" placeholder="검색어를 입력하세요">
+    
+    <!-- Coupang 검색을 트리거하는 버튼 -->
     <button onclick="searchCoupang()">검색</button>
 
+    <!-- 결과를 표시할 컨테이너 -->
     <div id="results"></div>
   </div>
   <script src="coupangScraper.js"></script>
